@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .App {
+  margin: 0;
   text-align: center;
-  margin: 3rem;
   font-family: 'Patrick Hand', cursive;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.container {
+  margin-bottom: 11rem;
 }
 
 .title {
+  margin-top: 2.5rem;
   color: var(--primary-color);
   font-size: 2.5rem;
 }
@@ -47,4 +54,28 @@
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-list {
+  text-align: center;
+  padding-inline-start: 0rem;
+}
+
+.footer-inline {
+  list-style: none;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
